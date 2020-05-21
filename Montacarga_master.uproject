@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{D16F634B-4AD3-3364-F62D-5B90A3A63A78}",
+	"Category": "",
+	"Description": "",
+	"Enterprise": true,
+	"Plugins": [
+		{
+			"Name": "UE4Duino",
+			"Enabled": true
+		}
+	]
+}
