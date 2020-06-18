@@ -129,6 +129,6 @@ bool UTextFileManager::SaveArray(FString SaveDirectory, FString FileName, TArray
     DatosScore3 += LINE_TERMINATOR;
 
 
-    return FFileHelper::SaveStringToFile(Nombre + UserName +  Tiempo1 + DatosTiempo1 + Tiempo2 + DatosTiempo2 + Tiempo3 + DatosTiempo3 + Cajas1 + DatosCaja1 + Cajas2 + DatosCaja2 + Cajas3 + DatosCaja3 + Score1 + DatosScore1 + Score2 + DatosScore2 + Score3 + DatosScore3,   *SaveDirectory);
+    return FFileHelper::SaveStringToFile(Nombre + UserName +  Tiempo1 + DatosTiempo1 + Cajas1 + DatosCaja1 +  Score1 + DatosScore1 + Tiempo2 + DatosTiempo2 + Cajas2 + DatosCaja2 + Score2 + DatosScore2 + Tiempo3 + DatosTiempo3   + Cajas3 + DatosCaja3  +  Score3 + DatosScore3,   *SaveDirectory);
 }
 
